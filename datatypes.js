@@ -44,3 +44,37 @@ var c = 12;
 console.log(a = a + 12)
 b = 9 + b;
 console.log(c += 13)
+
+var myStr = "i am a \"double quoted\" string inside \"double quotes\""
+console.log(myStr) 
+
+var ourstr = "i come first. "
+
+ourstr += "i come second."
+
+console.log(ourstr)
+
+var firstName = "Ada"
+
+firstLetterOfFirstName = firstName[0];
+
+console.log(firstLetterOfFirstName)
+
+
+var lastName = "lovelace"
+
+lastLetterOfLastName = lastName[lastName.length - 1];
+
+console.log(lastLetterOfLastName)
+
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
+
+    var result = "";
+    result += "The " + myAdjective +" " + myNoun +" "+ myVerb +" "+ "to the store " + myAdverb
+
+    return result;
+}
+
+console.log(wordBlanks("dog", "big", "ran", "quickly"))
+
+
